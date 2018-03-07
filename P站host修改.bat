@@ -6,27 +6,27 @@ cd /d "%~dp0"
 cls
 color 2f
 echo.----------------------------------------------------------- 
-echo.¾¯¸æ£ºÄã±ØÐëÊ¹ÓÃÓÒ¼üÒÔ¹ÜÀíÔ±È¨ÏÞÔËÐÐ´Ë³ÌÐò£¡
-echo. 1.ÎÒÒªÉÏPÕ¾£¨ÊäÈë1£©
+echo.è­¦å‘Šï¼šä½ å¿…é¡»ä½¿ç”¨å³é”®ä»¥ç®¡ç†å‘˜æƒé™è¿è¡Œæ­¤ç¨‹åºï¼
+echo. 1.HOSTæ³¨å…¥ï¼ˆè¾“å…¥1ï¼‰
 echo.
-echo. 2.ÎÒ²»ÒªÖ½Æ¬ÈËÀÏÆÅÁË£¨ÊäÈë2£©
+echo. 2.HOSTæ³¨é”€ï¼ˆè¾“å…¥2ï¼‰
 echo.-----------------------------------------------------------
 
 if exist "%SystemRoot%\System32\choice.exe" goto Win7Choice
 
-set /p choice=ÇëÊäÈëÊý×Ö²¢°´»Ø³µ¼üÈ·ÈÏ:
+set /p choice=è¯·è¾“å…¥æ•°å­—å¹¶æŒ‰å›žè½¦é”®ç¡®è®¤:
 
 echo.
 if %choice%==1 goto host DNS
 if %choice%==2 goto CL
 cls
 "set choice="
-echo ÇëÄã²»ÒªÏÄ¼§°ÅÂÒÊäÈë£¬OK£¿
+echo é”™è¯¯ï¼ŒOKï¼Ÿ
 ping 127.0.1 -n "2">nul
 goto main
 
 :Win7Choice
-choice /c 12 /n /m "»¹²»¿ì¿ìÊäÈëÄãÐèÒªµÄ¹¦ÄÜ²¢°´ÏÂÉñÆæµÄ»Ø³µ¼ü£¡£¡£¡"
+choice /c 12 /n /m "è¿˜ä¸å¿«å¿«è¾“å…¥ä½ éœ€è¦çš„åŠŸèƒ½å¹¶æŒ‰ä¸‹ç¥žå¥‡çš„å›žè½¦é”®ï¼ï¼ï¼"
 if errorlevel 2 goto CL
 if errorlevel 1 goto host DNS
 cls
@@ -72,16 +72,9 @@ color 2f
 @echo 210.129.120.43	embed.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
 @echo 210.129.120.44	comic-api.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
 ipconfig /flushdns
-echo.-----------------------------------------------------------
-echo Ê©¹¤Íê±Ï£¬ÕýÔÚµ÷ÓÃIEÁ¬½ÓÄãµÄÖ½Æ¬ÈËÀÏÆÅ£¡
-echo.
-start iexplore "https://www.pixiv.net"
-start iexplore "https://weibo.com/nutterchen/"
-echo.
-echo Çë¹Ø×¢×÷ÕßÎ¢²©£¬¸÷ÏµÍ³ÉÏPÕ¾½Ì³ÌÔÚÎ¢²©ÉÏ¸üÐÂ£¡£¡
 echo.     
 goto end
 
 :end
-echo Çë°´ÈÎÒâ¼üÍË³ö
+echo è¯·æŒ‰ä»»æ„é”®é€€å‡º
 @Pause>nul
