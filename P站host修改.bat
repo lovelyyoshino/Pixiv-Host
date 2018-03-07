@@ -3,14 +3,38 @@ mode con lines=30 cols=60
 %1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
 cd /d "%~dp0"
 :main
+cls
+color 2f
+echo.----------------------------------------------------------- 
 echo.警告：你必须使用右键以管理员权限运行此程序！
+echo. 1.我要上P站（输入1）
 echo.
-goto host DNS
+echo. 2.我不要纸片人老婆了（输入2）
+echo.-----------------------------------------------------------
+
+if exist "%SystemRoot%\System32\choice.exe" goto Win7Choice
+
+set /p choice=请输入数字并按回车键确认:
+
+echo.
+if %choice%==1 goto host DNS
+if %choice%==2 goto CL
+cls
+"set choice="
+echo 请你不要夏姬芭乱输入，OK？
+ping 127.0.1 -n "2">nul
+goto main
+
+:Win7Choice
+choice /c 12 /n /m "还不快快输入你需要的功能并按下神奇的回车键！！！"
+if errorlevel 2 goto CL
+if errorlevel 1 goto host DNS
+cls
+goto main
 
 :host DNS
 cls
 color 2f
-@echo #TalosPan上p站hosts，微博:TalosPan >>%SystemRoot%\System32\drivers\etc\hosts
 @echo 127.0.0.1         localhost >>%SystemRoot%\System32\drivers\etc\hosts
 @echo 210.129.120.41	pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
 @echo 210.129.120.55	www.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
@@ -48,5 +72,16 @@ color 2f
 @echo 210.129.120.43	embed.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
 @echo 210.129.120.44	comic-api.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
 ipconfig /flushdns
+echo.-----------------------------------------------------------
+echo 施工完毕，正在调用IE连接你的纸片人老婆！
+echo.
+start iexplore "https://www.pixiv.net"
+start iexplore "https://weibo.com/nutterchen/"
+echo.
+echo 请关注作者微博，各系统上P站教程在微博上更新！！
+echo.     
+goto end
+
+:end
 echo 请按任意键退出
 @Pause>nul
