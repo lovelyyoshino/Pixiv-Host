@@ -36,42 +36,45 @@ goto main
 cls
 color 2f
 @echo 127.0.0.1         localhost >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.45  pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.45 www.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.45 accounts.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.45 touch.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.47 www.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.47 accounts.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.47 touch.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.46 www.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.46 accounts.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.46 touch.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.140.131.147 source.pixiv.net t >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.140.131.147 source.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.140.131.147 source.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.140.131.147 source.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.140.131.147 imgaz.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.46 app-api.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.46 app-api.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.48 oauth.secure.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.45 dic.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.140.131.153 comic.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.47 factory.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 74.120.148.207 g-client-proxy.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.140.170.179 sketch.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.47 payment.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.45 sensei.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.140.131.144 novel.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.46 en-dic.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.140.131.145 i1.pixiv.net t >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.140.131.145 i2.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.140.131.145 i3.pixiv.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.140.131.145 i4.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.140.131.159 d.pixiv.org  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.140.92.135 pixiv.pximg.net >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.140.92.136 i.pximg.net  >>%SystemRoot%\System32\drivers\etc\hosts
-@echo 210.129.120.44	comic-api.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.45    pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.45    www.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.45    accounts.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.45    touch.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.47    www.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.47    accounts.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.47    touch.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.46    www.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.46    accounts.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.46    touch.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.140.131.147   source.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.140.131.147   source.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.140.131.147    source.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.140.131.147    source.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.140.131.147    imgaz.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.46    app-api.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.46    app-api.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.48    oauth.secure.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.45    dic.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.140.131.153    comic.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.47    factory.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 74.120.148.207    g-client-proxy.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.140.170.179    sketch.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.47    payment.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.45    sensei.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.140.131.144    novel.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.46    en-dic.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.140.131.145    i1.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.140.131.145    i2.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.140.131.145    i3.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.140.131.145    i4.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.140.131.159    d.pixiv.org >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.140.92.135    pixiv.pximg.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.140.92.136    i.pximg.net >>%SystemRoot%\System32\drivers\etc\hosts
+@echo 210.129.120.44    comic-api.pixiv.net >>%SystemRoot%\System32\drivers\etc\hosts
 ipconfig /flushdns
+echo.-----------------------------------------------------------
+echo.
+start iexplore "https://www.pixiv.net"
 echo.     
 goto end
 
