@@ -1,0 +1,6 @@
+C:\Users\pony\Desktop\git\pixiv_host\Pixiv\Pixiv\bin\Debug\Pixiv.exe.config
+C:\Users\pony\Desktop\git\pixiv_host\Pixiv\Pixiv\bin\Debug\Pixiv.exe
+C:\Users\pony\Desktop\git\pixiv_host\Pixiv\Pixiv\bin\Debug\Pixiv.pdb
+C:\Users\pony\Desktop\git\pixiv_host\Pixiv\Pixiv\obj\Debug\Pixiv.csproj.CoreCompileInputs.cache
+C:\Users\pony\Desktop\git\pixiv_host\Pixiv\Pixiv\obj\Debug\Pixiv.exe
+C:\Users\pony\Desktop\git\pixiv_host\Pixiv\Pixiv\obj\Debug\Pixiv.pdb
